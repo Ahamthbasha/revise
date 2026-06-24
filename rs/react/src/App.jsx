@@ -3,6 +3,7 @@ import Hoc from './components/Hoc'
 import RenderProps from './components/RenderProps'
 import Todo from './components/Todo'
 import RProps from './components/RProps'
+import Render from './components/Render'
 
 const App = () => {
   return (
@@ -10,7 +11,8 @@ const App = () => {
       {/* <Hoc/> */}
       {/* <RenderProps/> */}
       {/* <Todo/> */}
-      <RProps/>
+      {/* <RProps/> */}
+      <Render/>
     </div>
   )
 }
